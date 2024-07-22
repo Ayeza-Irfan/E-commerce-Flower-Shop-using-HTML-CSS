@@ -471,7 +471,12 @@ i:hover {
     font-size: 45%;
   }
   #top .fa-bars {
+    font-size: 3rem;
     display: block;
+  }
+
+  #top i{
+    font-size: 2.5rem;
   }
 
   #top #pages {
@@ -490,7 +495,7 @@ i:hover {
   }
 
   #top #pages a {
-    font-size: 1.3rem;
+    font-size: 2.5rem;
     padding: 1rem;
     margin: 1rem;
     background: #fff;
@@ -507,13 +512,20 @@ i:hover {
   }
 
   .holder {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items:center;
+    
   }
 
   .bouquets {
-    width: 50%;
+   
+    width: 90%;
+    height: auto;
+    margin: 1rem 0;
+    font-size: 1.5rem;
   }
 
   .review-boxes {
@@ -538,6 +550,21 @@ i:hover {
   .form {
     width: 100%;
   }
+  .quick-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    justify-items:center;
+  }
+
+  .links {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  
 }
 @media (max-width: 450px) {
   html {
